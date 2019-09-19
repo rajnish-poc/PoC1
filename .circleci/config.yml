@@ -5,7 +5,6 @@
 version: 2
 
 defaults: &defaults
-  working_directory: ~/PoC1/ClientApp
   docker:
     - image: circleci/node:8.9.1
 
