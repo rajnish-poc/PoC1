@@ -6,3 +6,5 @@ jobs:
     steps: 
       - checkout
       - run: echo "A first hello"
+      - run: npm run build
+      - run: echo "Run Completed"
