@@ -13,6 +13,7 @@ jobs:
     <<: *defaults  
     steps:
       - checkout
+      - run: cd ~user
       - run: cd PoC1/ClientApp/
       - run: npm install
       - run: pwd
