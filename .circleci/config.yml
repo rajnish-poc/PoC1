@@ -13,7 +13,7 @@ jobs:
     <<: *defaults  
     steps:
       - checkout
-      - run: cd..
+      - run: cd -
       - run: cd PoC1
       - run: cd ClientApp
       - run: npm install
